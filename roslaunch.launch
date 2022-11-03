@@ -1,0 +1,6 @@
+<launch>
+
+	<node pkg="test" type="talk.py" name="sender" output="screen"/>
+	<node pkg="test" type="listen.py" name="receiver" output="screen"/>
+</launch>	
+	
